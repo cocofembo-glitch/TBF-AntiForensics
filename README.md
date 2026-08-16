@@ -1,37 +1,43 @@
-# TBF Anti-Forensics v1.0 ULTIMATE
+# ⚡ TBF Anti-Forensics v1.0 ULTIMATE
 
-> *"Privacy is not secrecy. Privacy is the power to selectively reveal oneself to the world."* – **Eric Hughes**
+![Python](https://img.shields.io/badge/PYTHON-3.8%2B-blue?style=for-the-badge&logo=python)
+![Termux](https://img.shields.io/badge/TERMUX-SUPPORTED-brightgreen?style=for-the-badge&logo=android)
+![License](https://img.shields.io/badge/LICENSE-PROPRIETARY-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-ACTIVE-brightgreen?style=for-the-badge)
 
-> *"The only way to ensure data is truly gone is to ensure the medium no longer recognizes it as data."* – **TBF Core**
+> **"Privacy is not secrecy. Privacy is the power to selectively reveal oneself to the world."** – *Eric Hughes*
 
----
-
-## 🛡️ Про проєкт
-**TBF Anti-Forensics** — це професійна консольна утиліта (CLI) для системного знищення даних. Інструмент розроблений для тих, хто розуміє, що звичайне "видалення" файлу — це лише ілюзія безпеки. 
-
-Цей скрипт забезпечує:
-* **Безповоротне знищення даних:** Перезапис байтів за військовими стандартами.
-* **Anti-Forensics:** Затирання метаданих та рандомізація імен файлів перед їх видаленням.
-* **RAM Purge:** Примусове очищення оперативної пам'яті для запобігання витокам у "залишковій" пам'яті.
-* **Hardened Security:** Захист доступу через унікальний ключ авторизації.
+> **"The only way to ensure data is truly gone is to ensure the medium no longer recognizes it as data."** – *TBF Core*
 
 ---
 
-## 🚀 Встановлення
+## 🛡️ Features
+
+* **🗑️ Multi-Pass Shredding:** Support for Zero Fill, DoD 5220.22-M, and Gutmann Lite algorithms.
+* **🎭 Metadata & Name Scrambling:** Randomizes file names and extensions before wiping.
+* **🧹 RAM Purge:** Forced Garbage Collection to clear memory residuals after deletion.
+* **🔑 Hardened Authentication:** Key-protected terminal entry (`COCOF.TBF`).
+
+---
+
+## ⚠️ Legal Disclaimer
+
+This tool is designed strictly for educational, administrative, and personal data safety purposes. The developer assumes no responsibility or liability for any data loss, misuse, or illegal activities.
+
+---
+
+## 🛠️ Installation & Usage
 
 ```bash
-# Оновлення системи
-pkg update && pkg upgrade -y
+# Clone the repository
+git clone [https://github.com/cocofembo-glitch/TBF-AntiForensics.git](https://github.com/cocofembo-glitch/TBF-AntiForensics.git)
 
-# Встановлення залежностей
-pkg install python git -y
-
-# Клонування репозиторію
-git clone [https://github.com/cocofembo-glitch/TBF-AntiForensics](https://github.com/cocofembo-glitch/TBF-AntiForensics)
+# Enter project directory
 cd TBF-AntiForensics
 
-# Встановлення Python-бібліотек
+# Install required packages
 pip install -r requirements.txt
 
-# Запуск
+# Run TBF Anti-Forensics
 python tbf_shredder.py
+
