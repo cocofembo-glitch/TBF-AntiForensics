@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/PYTHON-3.8%2B-blue?style=for-the-badge&logo=python)
 ![Termux](https://img.shields.io/badge/TERMUX-SUPPORTED-brightgreen?style=for-the-badge&logo=android)
-![License](https://img.shields.io/badge/LICENSE-PROPRIETARY-red?style=for-the-badge)
+![License](https://img.shields.io/badge/LICENSE-GPL--3.0-red?style=for-the-badge)
 ![Status](https://img.shields.io/badge/STATUS-ACTIVE-brightgreen?style=for-the-badge)
 
 > **"Privacy is not secrecy. Privacy is the power to selectively reveal oneself to the world."** – *Eric Hughes*
