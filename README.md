@@ -30,7 +30,7 @@ This tool is designed strictly for educational, administrative, and personal dat
 
 ```bash
 # Clone the repository
-git clone [https://github.com/cocofembo-glitch/TBF-AntiForensics.git](https://github.com/cocofembo-glitch/TBF-AntiForensics.git)
+git clone https://github.com/cocofembo-glitch/TBF-AntiForensics.git (https://github.com/cocofembo-glitch/TBF-AntiForensics.git)
 
 # Enter project directory
 cd TBF-AntiForensics
